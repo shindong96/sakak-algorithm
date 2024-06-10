@@ -9,7 +9,7 @@ class AntAlgorithmTest {
 
     @DisplayName("보고 말하기 수열의 중앙값을 테스트한다.")
     @ParameterizedTest
-    @CsvSource({"5,12", "8,21"})
+    @CsvSource({"3,21", "5,12", "8,21"})
     void testLookAndSaySequence(int n, String answer) {
         // given
         AntAlgorithm antAlgorithm = new AntAlgorithm();
