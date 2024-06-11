@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class AntAlgorithm2 {
+public class AntSequenceAlgorithm2 {
 
     public String solution(final int n) {
         List<Integer> lN = new ArrayList<>();

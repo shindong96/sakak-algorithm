@@ -1,4 +1,4 @@
-public class AntAlgorithm {
+public class AntSequenceAlgorithm {
 
     public String solution(final int n) {
         String lN = "1";

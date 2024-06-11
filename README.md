@@ -2,7 +2,7 @@
 
  ---
 
-## 1. 첫번째 알고리즘(AntAlgorithm.class)
+## 1. 첫번째 알고리즘(AntSequenceAlgorithm.class)
 
 - 해당 풀이법은 가장 간단한 풀이로 매번 String을 다 만들어가며 세게 된다.
 - 때문에 값은 맞을 수 있으나 n이 커지면 String이 매우 길어져 수행 시간이 오래걸리고 공간 또한 부족해진다.
