@@ -2,13 +2,9 @@
 
  ---
 
-## 1. 첫번째 알고리즘(AntSequenceAlgorithm.class)
+## 실행 방법
 
-- 해당 풀이법은 가장 간단한 풀이로 매번 String을 다 만들어가며 세게 된다.
-- 때문에 값은 맞을 수 있으나 n이 커지면 String이 매우 길어져 수행 시간이 오래걸리고 공간 또한 부족해진다.
-- 100까지 입력을 받을 수 있어야 하는데 이러한 문제로 이미 테스트 코드가 실패한다.
-
-## 2. 두번째 알고리즘(AntSequenceAlgorithm2.class)
-
-- StringBuilder 대신 List<Integer>를 사용함으로써 개선할 수 있을까라 생각했지만 오히려 메모리 손해를 봤을듯하다.
-- 다만, 같은 숫자가 반복되는 빈도는 3을 넘을 수 없다는 사실을 알게 됐고 적용해서 반복문을 줄여볼 생각이였지만 큰 성과는 없었다.
+1. Java 17을 사용함으로 없다면 [링크](https://www.oracle.com/java/technologies/downloads/#java17) 에서 jdk 17을 다운받는다.
+2. 해당 레포지토리를 클론받는다.(`git clone https://github.com/shindong96/sakak-algorithm.git`)
+3. 클론받은 프로젝트 폴더로 이동하여 `build_and_run.sh` 파일에 실행 권한을 부여한다.(`chmod +x build_and_run.sh`)
+4. `./build_and_run.sh` 명령어를 통해 실행한다.
